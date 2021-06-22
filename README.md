@@ -1,6 +1,6 @@
 # YTSenpai
 
-Downloading Mp3 && Mp4 With Bash Scripting
+Downloading Mp3 && Mp4 With Shell Scripting
 
 
 ### First Interface
