@@ -7,6 +7,7 @@ red="\e[0;31m"
 ble="\e[0;34m"
 bld="\e[1;34m"
 nt="\e[0m"
+
 echo "YTSenpai" | figlet
 echo ""
 echo -e "${red}Youtube Downloader${nt}"
@@ -35,7 +36,7 @@ elif [[ $select == 1 ]];
         Mp3="-o $diraud/%(tittle)s.%(ext)s"
             echo "Downloading \"$input\""
             youtube-dl -f 'bestaudio' --ignore-errors --continue --extract-audio --audio-format mp3 $Mp3 $input
-    
+        
 elif [[ $select == 2 ]]; 
     then
         read -p "Input Url :" input
